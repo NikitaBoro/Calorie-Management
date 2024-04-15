@@ -1,5 +1,7 @@
 # FED_EN - Calorie Management Client Application
 
+Link: https://fed-en-nikita-orel.netlify.app/
+
 ## Overview
 
 This project serves as the final assignment for the Front-End Development course. It focuses on creating a Calorie Management Client Application to be tested on the Google Chrome web browser.
