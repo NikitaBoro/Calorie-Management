@@ -1,0 +1,202 @@
+/*
+Developers:
+First name: Orel, Nikita
+Last name: Rafailov, Borochov
+*/
+
+body {
+  height: 100vh;
+}
+
+#modalTour.modal {
+  padding-top: 8rem !important;
+  padding-bottom: 5rem !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid .calendar-container {
+  overflow: visible;
+}
+
+.calendar-container {
+  position: relative;
+}
+
+.alert {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1 !important;
+  width: 100%;
+  background-color: #cce5ff;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  background-color: rgba(189, 83, 83, 0.87);
+}
+
+.modal-header .close {
+  padding: 1rem;
+  margin: -1rem -1rem -1rem auto;
+}
+
+button.close {
+  background-color: transparent;
+  border: 0;
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 0.0625rem 0 #fff;
+  opacity: 0.5;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.errorMsg {
+  color: red;
+}
+
+.calendar-container {
+  background-color: #fff;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  width: 23.125rem;
+  overflow: hidden;
+  margin: auto;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.625rem;
+  background-color: rgba(189, 83, 83, 0.87);
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.calendar {
+  border-collapse: collapse;
+}
+
+.calendar th,
+.calendar td {
+  text-align: left;
+  padding: 0.625rem;
+  border: 0.0625rem solid #ddd;
+}
+
+.calendar th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.calendar td {
+  cursor: pointer;
+}
+
+.calendar td:hover {
+  background-color: #f5f5f5;
+}
+
+.report-container {
+  background-color: #fff;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+}
+.report-body {
+  max-width: fit-content;
+  max-height: fit-content;
+}
+.calorie-report h2 {
+  text-align: Center;
+}
+
+p {
+  margin: 0.625rem 0;
+  margin-left: 1.875rem;
+}
+
+span {
+  font-weight: bold;
+  color: #333;
+}
+.current-day {
+  background-color: #cce5ff;
+}
+.food-edit-menu-container {
+  margin: auto;
+}
+.food_list {
+  max-height: 25rem;
+  overflow-y: auto;
+  padding-right: 1.25rem;
+}
+
+.redBorder{
+  border:2px solid red;
+}
+
+.formContainer{
+  margin: 5px;
+}
+
+.formContainer .btn{
+  margin:5px;
+
+}
+
+#inputMonth{
+  width: 3rem;
+  margin: 5px;
+}
+
+#inputYear{
+  width: 4rem;
+  margin: 5px;
+}
+
+.table>:not(caption)>*>*{
+  padding: 0.5rem 0.3rem;
+}
+
+@media (max-width: 576px) {
+  #reportTable thead th {
+    font-size: 0.8rem; 
+  }
+}
+
+@media (max-width: 360px) {
+  #reportTable thead th {
+    font-size: 0.7rem; 
+  }
+}
+
+@media (max-width: 360px) {
+  #reportTable tbody td {
+    font-size: 0.9rem; 
+  }
+}
