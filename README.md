@@ -1,6 +1,6 @@
 # FED_EN - Calorie Management Client Application
 
-Link: https://fed-en-nikita-orel.netlify.app/
+Link: https://fed-orel-nikita.netlify.app/
 
 ## Overview
 
